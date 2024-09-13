@@ -1,0 +1,1282 @@
+[2024-09-11 12:39:51,552: INFO: main: Welcome to my custom log]
+[2024-09-11 23:48:58,862: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-11 23:48:58,869: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-11 23:48:58,871: INFO: common: created directory at: artifacts]
+[2024-09-11 23:48:58,872: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-11 23:52:00,361: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-11 23:52:00,363: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-11 23:52:00,365: INFO: common: created directory at: artifacts]
+[2024-09-11 23:52:00,367: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-11 23:56:53,824: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-11 23:56:53,825: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-11 23:56:53,826: INFO: common: created directory at: artifacts]
+[2024-09-11 23:56:53,827: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-11 23:56:55,399: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-11 23:56:55,401: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-11 23:56:55,402: INFO: common: created directory at: artifacts]
+[2024-09-11 23:56:55,403: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-11 23:58:37,784: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-11 23:58:37,786: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-11 23:58:37,787: INFO: common: created directory at: artifacts]
+[2024-09-11 23:58:37,787: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 00:00:16,726: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 00:00:16,728: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 00:00:16,729: INFO: common: created directory at: artifacts]
+[2024-09-12 00:00:16,730: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 00:01:06,878: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 00:01:06,880: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 00:01:06,881: INFO: common: created directory at: artifacts]
+[2024-09-12 00:01:06,882: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 00:07:33,100: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 00:07:33,103: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 00:07:33,105: INFO: common: created directory at: artifacts]
+[2024-09-12 00:07:33,105: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 00:07:36,374: INFO: 4037744573: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0896:AB576:ABA6:E3BE:66E1E36E
+Accept-Ranges: bytes
+Date: Wed, 11 Sep 2024 18:37:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4731-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1726079855.991920,VS0,VE955
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 4abed39d2172af2d120103c2423998c6b961927a
+Expires: Wed, 11 Sep 2024 18:42:35 GMT
+Source-Age: 1
+
+]
+[2024-09-12 08:18:52,460: ERROR: manager: No such comm target registered: jupyter.widget.control]
+[2024-09-12 08:18:52,479: WARNING: base_comm: No such comm: beb96b02-582f-4383-a5b8-524139615d2f]
+[2024-09-12 11:47:41,016: ERROR: manager: No such comm target registered: jupyter.widget.control]
+[2024-09-12 11:47:41,025: WARNING: base_comm: No such comm: b6d65137-b367-48e3-976d-f648faeb6af9]
+[2024-09-12 14:18:29,454: ERROR: manager: No such comm target registered: jupyter.widget.control]
+[2024-09-12 14:18:29,463: WARNING: base_comm: No such comm: 4095df36-7893-4d25-a5f9-15746a71df03]
+[2024-09-12 16:25:05,534: ERROR: manager: No such comm target registered: jupyter.widget.control]
+[2024-09-12 16:25:05,534: WARNING: base_comm: No such comm: fe10bae3-7e3b-4f55-9a64-4a61c29f2737]
+[2024-09-12 16:29:01,086: ERROR: manager: No such comm target registered: jupyter.widget.control]
+[2024-09-12 16:29:01,091: WARNING: base_comm: No such comm: 6a369e13-0281-40bf-8977-e4c9977c4ac0]
+[2024-09-12 18:50:36,806: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-12 18:50:36,848: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 18:50:36,858: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 18:50:36,862: INFO: common: created directory at: artifacts]
+[2024-09-12 18:50:36,862: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 18:50:41,257: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 552A:2B3E16:7F9AAE:94C1BB:66E2EAA5
+Accept-Ranges: bytes
+Date: Thu, 12 Sep 2024 13:20:39 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4747-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1726147238.549022,VS0,VE2125
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 4f2aeeec5adab2c4c6abf2c2dee2c962da484579
+Expires: Thu, 12 Sep 2024 13:25:39 GMT
+Source-Age: 2
+
+]
+[2024-09-12 18:50:42,032: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-12 20:10:03,920: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 20:10:03,923: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 20:10:03,925: INFO: common: created directory at: artifacts]
+[2024-09-12 20:10:03,926: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-12 20:10:12,725: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-12 20:10:12,878: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-12 20:40:24,218: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-12 20:40:24,223: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 20:40:24,227: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 20:40:24,228: INFO: common: created directory at: artifacts]
+[2024-09-12 20:40:24,228: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 20:40:27,230: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2D84:E6D0:3CD269:462A35:66E3045E
+Accept-Ranges: bytes
+Date: Thu, 12 Sep 2024 15:10:25 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4742-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1726153825.804901,VS0,VE891
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d75187ffd6c570aa33e4ffa96f75f64a291b0bff
+Expires: Thu, 12 Sep 2024 15:15:25 GMT
+Source-Age: 0
+
+]
+[2024-09-12 20:40:27,562: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-12 20:40:27,562: INFO: main: *******************]
+[2024-09-12 20:40:27,562: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-12 20:40:27,564: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 20:40:27,566: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 20:40:27,566: INFO: common: created directory at: artifacts]
+[2024-09-12 20:40:27,566: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-12 20:40:28,342: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-12 20:40:28,511: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-12 20:40:28,598: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-12 23:12:03,099: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 23:12:03,108: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 23:12:03,109: INFO: common: created directory at: artifacts]
+[2024-09-12 23:12:03,112: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-12 23:12:03,113: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-12 23:16:32,610: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 23:16:32,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 23:16:32,613: INFO: common: created directory at: artifacts]
+[2024-09-12 23:16:32,615: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-12 23:16:32,616: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-12 23:17:36,999: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 23:17:37,002: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 23:17:37,003: INFO: common: created directory at: artifacts]
+[2024-09-12 23:17:37,004: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-12 23:17:37,005: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-12 23:18:10,375: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 23:18:10,377: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 23:18:10,378: INFO: common: created directory at: artifacts]
+[2024-09-12 23:18:10,379: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-12 23:18:10,380: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:00:41,600: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:00:41,604: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:00:41,606: INFO: common: created directory at: artifacts]
+[2024-09-13 00:00:41,608: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:00:41,609: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:01:49,650: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:01:49,652: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:01:49,654: INFO: common: created directory at: artifacts]
+[2024-09-13 00:01:49,655: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:01:49,656: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:01:49,658: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:01:50,200: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:05:08,019: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:05:08,022: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:05:08,023: INFO: common: created directory at: artifacts]
+[2024-09-13 00:05:08,024: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:05:08,025: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:05:08,026: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:05:08,247: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:06:47,998: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:06:48,001: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:06:48,001: INFO: common: created directory at: artifacts]
+[2024-09-13 00:06:48,003: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:06:48,004: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:06:48,004: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:06:48,148: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:21:52,450: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:21:52,458: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:21:52,462: INFO: common: created directory at: artifacts]
+[2024-09-13 00:21:52,465: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:21:52,466: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:21:52,474: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:21:53,232: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:26:51,533: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:26:51,537: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:26:51,540: INFO: common: created directory at: artifacts]
+[2024-09-13 00:26:51,543: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:26:51,545: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:26:51,548: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:26:52,478: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:27:20,045: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:27:20,047: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:27:20,049: INFO: common: created directory at: artifacts]
+[2024-09-13 00:27:20,050: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:27:20,052: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:27:20,053: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:27:20,216: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:32:21,404: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:32:21,408: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:32:21,409: INFO: common: created directory at: artifacts]
+[2024-09-13 00:32:21,411: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:32:21,411: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:32:21,414: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:32:21,648: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:58:16,173: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:58:16,175: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:58:16,177: INFO: common: created directory at: artifacts]
+[2024-09-13 00:58:16,178: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:58:16,179: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:58:16,180: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:58:16,623: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:58:25,548: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:58:25,550: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:58:25,552: INFO: common: created directory at: artifacts]
+[2024-09-13 00:58:25,553: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:58:25,554: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:58:25,555: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:58:25,720: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:58:32,342: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:58:32,344: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:58:32,345: INFO: common: created directory at: artifacts]
+[2024-09-13 00:58:32,346: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:58:32,347: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:58:32,348: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:58:32,492: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:58:36,284: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:58:36,287: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:58:36,288: INFO: common: created directory at: artifacts]
+[2024-09-13 00:58:36,289: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:58:36,291: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:58:36,292: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:58:36,439: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:58:51,451: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:58:51,454: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:58:51,455: INFO: common: created directory at: artifacts]
+[2024-09-13 00:58:51,456: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:58:51,456: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:58:51,457: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:58:51,608: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 00:59:07,956: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 00:59:07,958: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 00:59:07,959: INFO: common: created directory at: artifacts]
+[2024-09-13 00:59:07,960: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 00:59:07,961: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 00:59:07,963: INFO: common: created directory at: artifacts\training]
+[2024-09-13 00:59:08,103: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 01:07:50,435: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 01:07:50,444: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 01:07:50,446: INFO: common: created directory at: artifacts]
+[2024-09-13 01:07:50,452: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 01:07:50,453: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 01:07:50,466: INFO: common: created directory at: artifacts\training]
+[2024-09-13 01:07:51,183: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 01:08:44,263: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 01:08:44,266: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 01:08:44,268: INFO: common: created directory at: artifacts]
+[2024-09-13 01:08:44,269: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 01:08:44,270: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 01:08:44,272: INFO: common: created directory at: artifacts\training]
+[2024-09-13 01:08:44,759: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 01:08:58,023: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 01:08:58,027: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 01:08:58,028: INFO: common: created directory at: artifacts]
+[2024-09-13 01:08:58,029: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 01:08:58,030: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 01:08:58,031: INFO: common: created directory at: artifacts\training]
+[2024-09-13 01:08:58,179: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 08:24:18,287: ERROR: manager: No such comm target registered: jupyter.widget.control]
+[2024-09-13 08:24:18,297: WARNING: base_comm: No such comm: e03ea042-1fa0-457e-8dce-e31bcc408ce3]
+[2024-09-13 08:25:21,828: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 08:25:21,836: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 08:25:21,837: INFO: common: created directory at: artifacts]
+[2024-09-13 08:25:21,839: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 08:25:21,839: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 08:25:21,840: INFO: common: created directory at: artifacts\training]
+[2024-09-13 08:25:22,162: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 08:39:10,025: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 08:39:10,028: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 08:39:10,030: INFO: common: created directory at: artifacts]
+[2024-09-13 08:39:10,034: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 08:39:10,034: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 08:39:10,038: INFO: common: created directory at: artifacts\training]
+[2024-09-13 08:39:10,715: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 08:40:14,168: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 08:40:14,170: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 08:40:14,173: INFO: common: created directory at: artifacts]
+[2024-09-13 08:40:14,174: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 08:40:14,175: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 08:40:14,177: INFO: common: created directory at: artifacts\training]
+[2024-09-13 08:40:14,331: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 09:29:36,691: ERROR: manager: No such comm target registered: jupyter.widget.control]
+[2024-09-13 09:29:36,731: WARNING: base_comm: No such comm: 3298f5ec-353d-4c3a-b64b-64799e3cb564]
+[2024-09-13 09:31:47,961: ERROR: manager: No such comm target registered: jupyter.widget.control]
+[2024-09-13 09:31:47,965: WARNING: base_comm: No such comm: 86664cae-d25c-4e51-bdde-8381cc1d81a8]
+[2024-09-13 10:14:16,582: ERROR: manager: No such comm target registered: jupyter.widget.control]
+[2024-09-13 10:14:16,603: WARNING: base_comm: No such comm: e1106e1d-774d-4def-8984-bc7d6f867f65]
+[2024-09-13 10:46:00,772: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 10:46:00,775: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:46:00,775: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:46:00,775: INFO: common: created directory at: artifacts]
+[2024-09-13 10:46:00,777: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 10:46:03,729: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2033:2F2FDB:8699D4:9C9C96:66E3CA91
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 05:16:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4738-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1726204562.049261,VS0,VE933
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2772d29f63dfc4129e40e0e5f987a087fb2ed08f
+Expires: Fri, 13 Sep 2024 05:21:02 GMT
+Source-Age: 0
+
+]
+[2024-09-13 10:46:04,378: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 10:46:04,378: INFO: main: *******************]
+[2024-09-13 10:46:04,378: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 10:46:04,381: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:46:04,382: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:46:04,383: INFO: common: created directory at: artifacts]
+[2024-09-13 10:46:04,383: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 10:46:05,307: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 10:46:05,780: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 10:46:05,982: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 10:46:05,982: INFO: main: *******************]
+[2024-09-13 10:46:05,982: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 10:46:05,987: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:46:05,991: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:46:05,992: INFO: common: created directory at: artifacts]
+[2024-09-13 10:46:05,995: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 10:46:05,996: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 10:46:05,997: INFO: common: created directory at: artifacts\training]
+[2024-09-13 10:46:06,464: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 10:46:19,786: ERROR: main: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>]
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 32, in <module>
+    model_trainer.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 26, in main
+    training.train(
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\training.py", line 86, in train
+    self.model.fit(
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>
+[2024-09-13 10:50:24,158: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 10:50:24,168: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:50:24,168: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:50:24,168: INFO: common: created directory at: artifacts]
+[2024-09-13 10:50:24,168: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 10:50:26,371: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2033:2F2FDB:8699D4:9C9C96:66E3CA91
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 05:20:25 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4740-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726204825.414825,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 28b5f646d964947347805b3797f740c3d2d95af3
+Expires: Fri, 13 Sep 2024 05:25:25 GMT
+Source-Age: 263
+
+]
+[2024-09-13 10:50:26,612: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 10:50:26,612: INFO: main: *******************]
+[2024-09-13 10:50:26,612: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 10:50:26,612: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:50:26,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:50:26,612: INFO: common: created directory at: artifacts]
+[2024-09-13 10:50:26,612: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 10:50:27,172: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 10:50:27,433: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 10:50:27,563: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 10:50:27,563: INFO: main: *******************]
+[2024-09-13 10:50:27,563: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 10:50:27,563: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:50:27,563: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:50:27,563: INFO: common: created directory at: artifacts]
+[2024-09-13 10:50:27,563: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 10:50:27,563: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 10:50:27,563: INFO: common: created directory at: artifacts\training]
+[2024-09-13 10:50:27,763: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 10:50:34,358: ERROR: main: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>]
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 32, in <module>
+    model_trainer.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 26, in main
+    training.train(
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\training.py", line 86, in train
+    self.model.fit(
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>
+[2024-09-13 10:51:59,139: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 10:51:59,139: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:51:59,139: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:51:59,139: INFO: common: created directory at: artifacts]
+[2024-09-13 10:51:59,139: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 10:51:59,139: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-09-13 10:51:59,359: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 10:51:59,359: INFO: main: *******************]
+[2024-09-13 10:51:59,359: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 10:51:59,359: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:51:59,359: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:51:59,359: INFO: common: created directory at: artifacts]
+[2024-09-13 10:51:59,359: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 10:51:59,820: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 10:52:00,041: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 10:52:00,121: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 10:52:00,121: INFO: main: *******************]
+[2024-09-13 10:52:00,121: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 10:52:00,121: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:52:00,121: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:52:00,121: INFO: common: created directory at: artifacts]
+[2024-09-13 10:52:00,121: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 10:52:00,121: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 10:52:00,121: INFO: common: created directory at: artifacts\training]
+[2024-09-13 10:52:00,272: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 10:52:05,030: ERROR: main: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>]
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 32, in <module>
+    model_trainer.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 26, in main
+    training.train(
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\training.py", line 86, in train
+    self.model.fit(
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>
+[2024-09-13 10:52:58,560: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 10:52:58,561: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:52:58,562: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:52:58,562: INFO: common: created directory at: artifacts]
+[2024-09-13 10:52:58,562: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 10:53:00,610: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2033:2F2FDB:8699D4:9C9C96:66E3CA91
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 05:22:59 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4746-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726204980.742612,VS0,VE250
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8ed398fa0cdad2c37b31ba1b5f551a96d923cc0a
+Expires: Fri, 13 Sep 2024 05:27:59 GMT
+Source-Age: 0
+
+]
+[2024-09-13 10:53:00,801: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 10:53:00,801: INFO: main: *******************]
+[2024-09-13 10:53:00,801: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 10:53:00,801: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:53:00,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:53:00,801: INFO: common: created directory at: artifacts]
+[2024-09-13 10:53:00,801: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 10:53:01,083: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 10:53:01,290: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 10:53:01,384: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 10:53:01,384: INFO: main: *******************]
+[2024-09-13 10:53:01,384: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 10:53:01,384: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:53:01,394: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:53:01,394: INFO: common: created directory at: artifacts]
+[2024-09-13 10:53:01,394: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 10:53:01,394: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 10:53:01,394: INFO: common: created directory at: artifacts\training]
+[2024-09-13 10:53:01,554: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 10:53:07,669: ERROR: main: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>]
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 32, in <module>
+    model_trainer.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 26, in main
+    training.train(
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\training.py", line 86, in train
+    self.model.fit(
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>
+[2024-09-13 10:56:29,169: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 10:56:29,172: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:56:29,172: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:56:29,173: INFO: common: created directory at: artifacts]
+[2024-09-13 10:56:29,173: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 10:56:30,698: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2033:2F2FDB:8699D4:9C9C96:66E3CA91
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 05:26:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4735-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726205190.313535,VS0,VE4
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1ec81580a1b1a5696fe63db1e44c912f93e2e9f6
+Expires: Fri, 13 Sep 2024 05:31:30 GMT
+Source-Age: 210
+
+]
+[2024-09-13 10:56:30,895: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 10:56:30,895: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 10:56:30,896: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:56:30,897: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:56:30,897: INFO: common: created directory at: artifacts]
+[2024-09-13 10:56:30,898: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 10:56:31,354: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 10:56:31,562: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 10:56:31,671: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 10:56:31,671: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 10:56:31,672: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 10:56:31,673: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 10:56:31,673: INFO: common: created directory at: artifacts]
+[2024-09-13 10:56:31,673: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 10:56:31,675: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 10:56:31,675: INFO: common: created directory at: artifacts\training]
+[2024-09-13 10:56:31,838: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 10:56:38,221: ERROR: main: An error occurred during Training: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>]
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 10, in run_pipeline_stage
+    pipeline_instance.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 26, in main
+    training.train(
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\training.py", line 86, in train
+    self.model.fit(
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>
+[2024-09-13 11:31:38,101: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 11:31:38,101: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:31:38,110: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:31:38,110: INFO: common: created directory at: artifacts]
+[2024-09-13 11:31:38,110: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 11:31:38,110: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-09-13 11:31:38,311: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 11:31:38,311: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 11:31:38,311: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:31:38,311: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:31:38,311: INFO: common: created directory at: artifacts]
+[2024-09-13 11:31:38,311: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 11:31:38,972: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 11:31:39,193: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 11:31:39,273: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 11:31:39,273: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 11:31:39,283: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:31:39,283: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:31:39,283: INFO: common: created directory at: artifacts]
+[2024-09-13 11:31:39,283: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 11:31:39,283: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 11:31:39,283: INFO: common: created directory at: artifacts\training]
+[2024-09-13 11:31:39,445: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 11:31:44,792: ERROR: main: An error occurred during Training: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>]
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 10, in run_pipeline_stage
+    pipeline_instance.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 26, in main
+    training.train(
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\training.py", line 86, in train
+    self.model.fit(
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>
+[2024-09-13 11:41:59,709: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 11:41:59,712: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:41:59,713: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:41:59,714: INFO: common: created directory at: artifacts]
+[2024-09-13 11:41:59,714: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 11:41:59,714: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-09-13 11:42:00,082: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 11:42:00,082: INFO: main: *******************]
+[2024-09-13 11:42:00,082: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 11:42:00,083: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:42:00,084: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:42:00,084: INFO: common: created directory at: artifacts]
+[2024-09-13 11:42:00,084: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 11:42:00,674: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 11:42:00,893: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 11:42:01,153: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 11:42:01,153: INFO: main: *******************]
+[2024-09-13 11:42:01,153: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 11:42:01,155: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:42:01,156: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:42:01,156: INFO: common: created directory at: artifacts]
+[2024-09-13 11:42:01,157: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 11:42:01,157: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 11:42:01,158: ERROR: main: The filepath provided must end in `.keras` (Keras model format). Received: filepath=artifacts\prepare_callbacks\checkpoint_dir\model.h5]
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 38, in <module>
+    model_trainer.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 19, in main
+    callback_list = prepare_callbacks.get_tb_ckpt_callbacks()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\prepare_callbacks.py", line 35, in get_tb_ckpt_callbacks
+    self._create_ckpt_callbacks
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\prepare_callbacks.py", line 27, in _create_ckpt_callbacks
+    return tf.keras.callbacks.ModelCheckpoint(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\callbacks\model_checkpoint.py", line 191, in __init__
+    raise ValueError(
+ValueError: The filepath provided must end in `.keras` (Keras model format). Received: filepath=artifacts\prepare_callbacks\checkpoint_dir\model.h5
+[2024-09-13 11:45:12,917: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 11:45:12,919: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:45:12,920: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:45:12,920: INFO: common: created directory at: artifacts]
+[2024-09-13 11:45:12,921: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 11:45:14,835: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2033:2F2FDB:8699D4:9C9C96:66E3CA91
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 06:15:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4742-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726208114.216772,VS0,VE249
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cdcede712ac11f7f980e33f1cf981f758d419a3d
+Expires: Fri, 13 Sep 2024 06:20:14 GMT
+Source-Age: 0
+
+]
+[2024-09-13 11:45:15,136: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 11:45:15,136: INFO: main: *******************]
+[2024-09-13 11:45:15,136: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 11:45:15,137: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:45:15,138: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:45:15,138: INFO: common: created directory at: artifacts]
+[2024-09-13 11:45:15,138: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 11:45:15,714: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 11:45:15,994: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 11:45:16,141: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 11:45:16,142: INFO: main: *******************]
+[2024-09-13 11:45:16,142: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 11:45:16,145: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:45:16,146: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:45:16,147: INFO: common: created directory at: artifacts]
+[2024-09-13 11:45:16,147: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 11:45:16,147: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 11:45:16,148: ERROR: main: 'WindowsPath' object has no attribute 'endswith']
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 38, in <module>
+    model_trainer.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 19, in main
+    callback_list = prepare_callbacks.get_tb_ckpt_callbacks()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\prepare_callbacks.py", line 35, in get_tb_ckpt_callbacks
+    self._create_ckpt_callbacks
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\prepare_callbacks.py", line 24, in _create_ckpt_callbacks
+    if not checkpoint_filepath.endswith('.keras'):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'WindowsPath' object has no attribute 'endswith'
+[2024-09-13 11:46:46,796: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 11:46:46,800: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:46:46,802: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:46:46,803: INFO: common: created directory at: artifacts]
+[2024-09-13 11:46:46,803: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 11:46:46,803: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-09-13 11:46:47,067: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 11:46:47,067: INFO: main: *******************]
+[2024-09-13 11:46:47,067: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 11:46:47,069: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:46:47,070: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:46:47,071: INFO: common: created directory at: artifacts]
+[2024-09-13 11:46:47,071: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 11:46:47,714: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 11:46:47,935: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-13 11:46:48,062: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 11:46:48,062: INFO: main: *******************]
+[2024-09-13 11:46:48,062: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 11:46:48,063: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:46:48,064: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:46:48,064: INFO: common: created directory at: artifacts]
+[2024-09-13 11:46:48,065: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 11:46:48,065: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 11:46:48,065: ERROR: main: The filepath provided must end in `.keras` (Keras model format).]
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 38, in <module>
+    model_trainer.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 19, in main
+    callback_list = prepare_callbacks.get_tb_ckpt_callbacks()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\prepare_callbacks.py", line 36, in get_tb_ckpt_callbacks
+    self._create_ckpt_callbacks
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\prepare_callbacks.py", line 27, in _create_ckpt_callbacks
+    raise ValueError("The filepath provided must end in `.keras` (Keras model format).")
+ValueError: The filepath provided must end in `.keras` (Keras model format).
+[2024-09-13 11:52:13,169: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 11:52:13,171: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:52:13,172: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:52:13,172: INFO: common: created directory at: artifacts]
+[2024-09-13 11:52:13,173: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 11:52:15,919: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2033:2F2FDB:8699D4:9C9C96:66E3CA91
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 06:22:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4730-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726208534.326981,VS0,VE241
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2612cf58f5dbfd89535fbc2f3018020ec071aff7
+Expires: Fri, 13 Sep 2024 06:27:14 GMT
+Source-Age: 0
+
+]
+[2024-09-13 11:52:16,141: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 11:52:16,142: INFO: main: *******************]
+[2024-09-13 11:52:16,142: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 11:52:16,143: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:52:16,144: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:52:16,144: INFO: common: created directory at: artifacts]
+[2024-09-13 11:52:16,144: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 11:52:17,299: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 11:52:17,299: INFO: main: *******************]
+[2024-09-13 11:52:17,299: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 11:52:17,300: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:52:17,301: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:52:17,301: INFO: common: created directory at: artifacts]
+[2024-09-13 11:52:17,301: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 11:52:17,302: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 11:52:17,302: INFO: common: created directory at: artifacts\training]
+[2024-09-13 11:52:23,366: ERROR: main: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>]
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 38, in <module>
+    model_trainer.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 26, in main
+    training.train(
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\training.py", line 74, in train
+    self.model.fit(
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ragha\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2501' in position 21: character maps to <undefined>
+[2024-09-13 11:54:49,737: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 11:54:49,740: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:54:49,741: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:54:49,741: INFO: common: created directory at: artifacts]
+[2024-09-13 11:54:49,741: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 11:54:51,291: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2033:2F2FDB:8699D4:9C9C96:66E3CA91
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 06:24:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4749-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726208691.898815,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 644bd99d334113ac04fb5cfe659876907084e246
+Expires: Fri, 13 Sep 2024 06:29:50 GMT
+Source-Age: 156
+
+]
+[2024-09-13 11:54:51,496: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 11:54:51,496: INFO: main: *******************]
+[2024-09-13 11:54:51,496: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 11:54:51,498: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:54:51,499: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:54:51,499: INFO: common: created directory at: artifacts]
+[2024-09-13 11:54:51,499: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 11:54:52,839: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 11:54:52,839: INFO: main: *******************]
+[2024-09-13 11:54:52,839: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 11:54:52,841: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 11:54:52,842: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 11:54:52,842: INFO: common: created directory at: artifacts]
+[2024-09-13 11:54:52,843: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 11:54:52,843: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 11:54:52,843: INFO: common: created directory at: artifacts\training]
+[2024-09-13 11:57:14,500: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-09-13 12:05:00,434: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 12:05:00,436: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:05:00,437: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:05:00,437: INFO: common: created directory at: artifacts]
+[2024-09-13 12:05:00,438: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 12:05:02,245: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2033:2F2FDB:8699D4:9C9C96:66E3CA91
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 06:35:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4749-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726209302.603407,VS0,VE252
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f82f6de3338a6802d47b13c8e96c4a9575bed65f
+Expires: Fri, 13 Sep 2024 06:40:01 GMT
+Source-Age: 0
+
+]
+[2024-09-13 12:05:02,460: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 12:05:02,460: INFO: main: *******************]
+[2024-09-13 12:05:02,460: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 12:05:02,461: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:05:02,462: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:05:02,462: INFO: common: created directory at: artifacts]
+[2024-09-13 12:05:02,463: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 12:05:03,759: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 12:05:03,759: INFO: main: *******************]
+[2024-09-13 12:05:03,760: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 12:05:03,761: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:05:03,762: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:05:03,764: INFO: common: created directory at: artifacts]
+[2024-09-13 12:05:03,764: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 12:05:03,765: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 12:05:03,765: INFO: common: created directory at: artifacts\training]
+[2024-09-13 12:05:04,038: ERROR: main: 'DirectoryIterator' object has no attribute 'repeat']
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 41, in <module>
+    model_trainer.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 25, in main
+    training.train_valid_generator()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\training.py", line 65, in train_valid_generator
+    ).repeat()
+      ^^^^^^
+AttributeError: 'DirectoryIterator' object has no attribute 'repeat'. Did you mean: 'reset'?
+[2024-09-13 12:07:10,362: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 12:07:10,363: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:07:10,364: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:07:10,365: INFO: common: created directory at: artifacts]
+[2024-09-13 12:07:10,365: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 12:07:11,864: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2033:2F2FDB:8699D4:9C9C96:66E3CA91
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 06:37:11 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4748-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726209431.247297,VS0,VE2
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 94aa991ec2464fce7d71f5a65de0300ed005205c
+Expires: Fri, 13 Sep 2024 06:42:11 GMT
+Source-Age: 129
+
+]
+[2024-09-13 12:07:12,071: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 12:07:12,071: INFO: main: *******************]
+[2024-09-13 12:07:12,071: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 12:07:12,073: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:07:12,074: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:07:12,074: INFO: common: created directory at: artifacts]
+[2024-09-13 12:07:12,074: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 12:07:13,156: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 12:07:13,156: INFO: main: *******************]
+[2024-09-13 12:07:13,156: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 12:07:13,158: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:07:13,159: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:07:13,159: INFO: common: created directory at: artifacts]
+[2024-09-13 12:07:13,160: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 12:07:13,160: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 12:07:13,161: INFO: common: created directory at: artifacts\training]
+[2024-09-13 12:11:25,227: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 12:11:25,235: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:11:25,237: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:11:25,240: INFO: common: created directory at: artifacts]
+[2024-09-13 12:11:25,240: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 12:11:28,225: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2033:2F2FDB:8699D4:9C9C96:66E3CA91
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 06:41:26 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4750-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726209687.549753,VS0,VE242
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 415c2dd8e27e2e792f84ba7b4b7acd10c2a05c5d
+Expires: Fri, 13 Sep 2024 06:46:26 GMT
+Source-Age: 0
+
+]
+[2024-09-13 12:11:28,939: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 12:11:28,939: INFO: main: *******************]
+[2024-09-13 12:11:28,939: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 12:11:28,942: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:11:28,945: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:11:28,946: INFO: common: created directory at: artifacts]
+[2024-09-13 12:11:28,946: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 12:11:31,606: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 12:11:31,607: INFO: main: *******************]
+[2024-09-13 12:11:31,607: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 12:11:31,612: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:11:31,616: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:11:31,617: INFO: common: created directory at: artifacts]
+[2024-09-13 12:11:31,619: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 12:11:31,620: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 12:11:31,622: INFO: common: created directory at: artifacts\training]
+[2024-09-13 12:14:26,989: ERROR: main: 'Training' object has no attribute 'save_model']
+Traceback (most recent call last):
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\main.py", line 41, in <module>
+    model_trainer.main()
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\pipeline\stage_03_trainig.py", line 26, in main
+    training.train(
+  File "C:\Users\ragha\PycharmProjects\chicken-disease-classification\pythonProject\src\cnnClassifier\components\training.py", line 83, in train
+    self.save_model(
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Training' object has no attribute 'save_model'
+[2024-09-13 12:18:17,623: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 12:18:17,625: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:18:17,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:18:17,627: INFO: common: created directory at: artifacts]
+[2024-09-13 12:18:17,627: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 12:18:17,627: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-09-13 12:18:17,875: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 12:18:17,875: INFO: main: *******************]
+[2024-09-13 12:18:17,875: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 12:18:17,876: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:18:17,877: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:18:17,877: INFO: common: created directory at: artifacts]
+[2024-09-13 12:18:17,877: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 12:18:19,207: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 12:18:19,207: INFO: main: *******************]
+[2024-09-13 12:18:19,207: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 12:18:19,209: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 12:18:19,210: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 12:18:19,210: INFO: common: created directory at: artifacts]
+[2024-09-13 12:18:19,210: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 12:18:19,210: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 12:18:19,211: INFO: common: created directory at: artifacts\training]
+[2024-09-13 12:20:39,860: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-09-13 13:15:53,806: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 13:15:53,806: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 13:15:53,811: INFO: common: created directory at: artifacts]
+[2024-09-13 13:16:06,144: INFO: common: json file saved at: scores.json]
+[2024-09-13 13:30:24,492: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 13:30:24,497: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 13:30:24,500: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 13:30:24,500: INFO: common: created directory at: artifacts]
+[2024-09-13 13:30:24,501: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 13:30:27,684: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2CBE:119D05:14663A:190463:66E3F119
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 08:00:26 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4723-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1726214426.728000,VS0,VE993
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 24f959a8fb4e779d89a9e5d2364e96bf5d393548
+Expires: Fri, 13 Sep 2024 08:05:26 GMT
+Source-Age: 1
+
+]
+[2024-09-13 13:30:28,330: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 13:30:28,331: INFO: main: *******************]
+[2024-09-13 13:30:28,331: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 13:30:28,336: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 13:30:28,339: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 13:30:28,341: INFO: common: created directory at: artifacts]
+[2024-09-13 13:30:28,341: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 13:30:32,052: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 13:30:32,052: INFO: main: *******************]
+[2024-09-13 13:30:32,052: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 13:30:32,059: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 13:30:32,063: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 13:30:32,064: INFO: common: created directory at: artifacts]
+[2024-09-13 13:30:32,065: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 13:30:32,066: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 13:30:32,067: INFO: common: created directory at: artifacts\training]
+[2024-09-13 13:33:32,225: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-09-13 13:33:32,228: INFO: main: *******************]
+[2024-09-13 13:33:32,228: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-09-13 13:33:32,251: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 13:33:32,257: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 13:33:32,260: INFO: common: created directory at: artifacts]
+[2024-09-13 14:53:02,593: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 14:53:02,602: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 14:53:02,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 14:53:02,612: INFO: common: created directory at: artifacts]
+[2024-09-13 14:53:02,612: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 14:53:05,356: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9C78:3D4785:61E901:708D7A:66E40477
+Accept-Ranges: bytes
+Date: Fri, 13 Sep 2024 09:23:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4723-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1726219384.797807,VS0,VE1070
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7e6ad126f0c55941a818c5805214178443bd717c
+Expires: Fri, 13 Sep 2024 09:28:04 GMT
+Source-Age: 1
+
+]
+[2024-09-13 14:53:05,694: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 14:53:05,694: INFO: main: *******************]
+[2024-09-13 14:53:05,694: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 14:53:05,696: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 14:53:05,696: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 14:53:05,696: INFO: common: created directory at: artifacts]
+[2024-09-13 14:53:05,696: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 14:53:08,815: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 14:53:08,815: INFO: main: *******************]
+[2024-09-13 14:53:08,815: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-13 14:53:08,815: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 14:53:08,815: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 14:53:08,825: INFO: common: created directory at: artifacts]
+[2024-09-13 14:53:08,825: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-13 14:53:08,825: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-13 14:53:08,825: INFO: common: created directory at: artifacts\training]
+[2024-09-13 14:55:30,235: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-09-13 14:55:30,235: INFO: main: *******************]
+[2024-09-13 14:55:30,235: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-09-13 14:55:30,245: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 14:55:30,245: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 14:55:30,245: INFO: common: created directory at: artifacts]
+[2024-09-13 14:55:50,272: INFO: common: json file saved at: scores.json]
+[2024-09-13 14:55:50,272: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
