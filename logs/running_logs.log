@@ -1532,3 +1532,84 @@ UnicodeEncodeError: 'charmap' codec can't encode characters in position 19-38: c
 [2024-09-17 01:01:10,749: INFO: _internal: [33mPress CTRL+C to quit[0m]
 [2024-09-17 01:01:14,951: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 01:01:14] "GET / HTTP/1.1" 200 -]
 [2024-09-17 01:01:20,972: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 01:01:20] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:09:47,442: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-17 13:09:47,457: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-17 13:09:47,469: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-17 13:09:47,469: INFO: common: created directory at: artifacts]
+[2024-09-17 13:09:47,470: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-17 13:09:47,471: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-09-17 13:09:48,064: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-17 13:09:48,064: INFO: main: *******************]
+[2024-09-17 13:09:48,064: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-17 13:09:48,066: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-17 13:09:48,069: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-17 13:09:48,069: INFO: common: created directory at: artifacts]
+[2024-09-17 13:09:48,070: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-17 13:09:50,503: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-17 13:09:50,504: INFO: main: *******************]
+[2024-09-17 13:09:50,504: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-09-17 13:09:50,509: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-17 13:09:50,511: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-17 13:09:50,512: INFO: common: created directory at: artifacts]
+[2024-09-17 13:09:50,513: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-17 13:09:50,514: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-17 13:09:50,516: INFO: common: created directory at: artifacts\training]
+[2024-09-17 13:11:51,325: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.22.30.247:8080]
+[2024-09-17 13:11:51,327: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-09-17 13:11:54,457: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:11:54] "GET / HTTP/1.1" 200 -]
+[2024-09-17 13:12:03,439: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:12:03] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:12:16,488: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:12:16] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:12:58,686: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:12:58] "GET / HTTP/1.1" 200 -]
+[2024-09-17 13:14:54,309: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.22.30.247:8080]
+[2024-09-17 13:14:54,309: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-09-17 13:14:56,455: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:14:56] "GET / HTTP/1.1" 200 -]
+[2024-09-17 13:15:05,216: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:15:05] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:17:41,979: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.22.30.247:8080]
+[2024-09-17 13:17:41,979: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-09-17 13:17:44,183: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:17:44] "GET / HTTP/1.1" 200 -]
+[2024-09-17 13:17:52,791: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:17:52] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:18:04,889: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:18:04] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:18:16,524: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:18:16] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:18:23,715: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:18:23] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:21:44,176: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.22.30.247:8080]
+[2024-09-17 13:21:44,178: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-09-17 13:21:45,903: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:21:45] "GET / HTTP/1.1" 200 -]
+[2024-09-17 13:21:54,649: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:21:54] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:22:26,048: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.22.30.247:8080]
+[2024-09-17 13:22:26,048: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-09-17 13:22:27,536: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:22:27] "GET / HTTP/1.1" 200 -]
+[2024-09-17 13:22:32,616: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:22:32] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:25:03,460: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.22.30.247:8080]
+[2024-09-17 13:25:03,461: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-09-17 13:25:04,856: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:25:04] "GET / HTTP/1.1" 200 -]
+[2024-09-17 13:25:11,764: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:25:11] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:25:54,126: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.22.30.247:8080]
+[2024-09-17 13:25:54,127: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-09-17 13:25:55,722: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:25:55] "GET / HTTP/1.1" 200 -]
+[2024-09-17 13:26:03,301: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:26:03] "POST /predict HTTP/1.1" 200 -]
+[2024-09-17 13:26:12,778: INFO: _internal: 127.0.0.1 - - [17/Sep/2024 13:26:12] "POST /predict HTTP/1.1" 200 -]
