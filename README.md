@@ -1,5 +1,5 @@
 # Chicken Disease Classification
-#Overview
+##Overview
 The Chicken Disease Classification Project aims to detect and classify poultry diseases using a deep learning-based Convolutional Neural Network (CNN) model. This project automates the identification of chicken diseases from images, improving diagnostic accuracy and efficiency in the poultry farming industry.
 
 ## Demo 
