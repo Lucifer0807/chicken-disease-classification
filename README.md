@@ -6,7 +6,7 @@ The Chicken Disease Classification Project aims to detect and classify poultry d
 ## Demo 
 
 <div>
-    <img src="cocci.8.jpg" alt="coccidiosis" width="400"/>
+    <img src="healthy.png" alt="coccidiosis" width="400"/>
     <img src="image.png" alt="healthy" width="400"/>
 </div>
 
