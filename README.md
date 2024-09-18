@@ -14,7 +14,7 @@ You can find the deployed link to the project here: 730335524291.dkr.ecr.ap-sout
 
 (I have terminated this for now due to the high computing cost incurred in running this application.)
 
-##Key Features
+## Key Features
 Automated disease detection using CNN models.
 High accuracy of over 90% for classifying chicken diseases.
 Cloud deployment using AWS or Azure for real-time accessibility.
@@ -22,14 +22,14 @@ Integrated CI/CD pipeline for continuous integration and deployment.
 Comprehensive data preprocessing and model evaluation techniques.
 
 
-##Tech Stack
+## Tech Stack
 Python
 TensorFlow/Keras for deep learning model development
 Scikit-learn for data preprocessing and model evaluation
 AWS/Azure for cloud deployment
 CI/CD pipeline using GitHub Actions
 
-##Workflows
+## Workflows
 1. Update config.yaml
 2. Update secrets.yaml [Optional]
 3. Update params.yaml
