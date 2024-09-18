@@ -1,5 +1,34 @@
 # Chicken Disease Classification
+#Overview
+The Chicken Disease Classification Project aims to detect and classify poultry diseases using a deep learning-based Convolutional Neural Network (CNN) model. This project automates the identification of chicken diseases from images, improving diagnostic accuracy and efficiency in the poultry farming industry.
 
+## Demo 
+
+<div>
+    <img src="images/coccidiosis.png" alt="coccidiosis" width="400"/>
+    <img src="images/healthy.png" alt="healthy" width="400"/>
+</div>
+
+You can find the deployed link to the project here: 730335524291.dkr.ecr.ap-south-1.amazonaws.com
+
+(I have terminated this for now due to the high computing cost incurred in running this application.)
+
+##Key Features
+Automated disease detection using CNN models.
+High accuracy of over 90% for classifying chicken diseases.
+Cloud deployment using AWS or Azure for real-time accessibility.
+Integrated CI/CD pipeline for continuous integration and deployment.
+Comprehensive data preprocessing and model evaluation techniques.
+
+
+##Tech Stack
+Python
+TensorFlow/Keras for deep learning model development
+Scikit-learn for data preprocessing and model evaluation
+AWS/Azure for cloud deployment
+CI/CD pipeline using GitHub Actions
+
+##Workflows
 1. Update config.yaml
 2. Update secrets.yaml [Optional]
 3. Update params.yaml
@@ -10,7 +39,7 @@
 8. Update the main.py
 9. Update the dvc.yaml
 
-# How to run?
+## How to run?
 ### STEPS:
 
 Clone the repository
@@ -123,6 +152,29 @@ open up you local host and port
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  730335524291.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+## Azure CI/CD deployment with GitHub Actions 
+
+Save the password generated under Access keys in your container registry somewhere safe.
+You can only see the password after enabling Admin user in Access keys.
+
+### Run from terminal one by one:
+
+```bash
+docker build -t <login_server>/<your_project_name>:<tag> .
+docker login <login_server>
+docker push <login_server>/<your_project_name>:<tag>
+```
+
+### Deployment Steps:
+
+1. Build the Docker image of the Source Code
+2. Push the Docker image to Container Registry
+3. Launch the Web App Server in Azure 
+4. Pull the Docker image from the container registry to Web App server and run
+
+
+
